@@ -1,4 +1,3 @@
-/* Genel Ayarlar */
 body, html {
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@ body, html {
     font-family: Helvetica;
 }
 
-/* Arkaplan */
 .background {
     position: fixed;
     top: 0;
@@ -30,7 +28,6 @@ body, html {
     z-index: -1;
 }
 
-/* İçerik */
 .title {
     position: relative;
     z-index: 1;
