@@ -1,1 +1,1 @@
-<p>A try out for making a job application page by myself</p>
+A try out for making a job application page by myself
