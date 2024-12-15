@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Başvurusu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Arkaplan -->
+    <div class="background"></div>
+    <div class="kutu"></div>
+
+    <!-- İçerik -->
+    <div class="title">
+        <h1 id="title">Çakan Holding A.Ş.</h1>
+        <p id="description">Şirketimize iş başvurusunda bulunmak için formu doldurunuz.</p>
+    </div>
+
+    <div class="box">
+        <form class="survey-form">
+            <label for="name">İsim</label><br>
+            <input type="text" id="name" required placeholder="İsminizi giriniz"><br><br>
+            <label for="email">E-posta adresi</label><br>
+            <input type="email" id="email" required placeholder="E-posta adresinizi giriniz"><br><br>
+            <label for="number">Yaş (İsteğe Bağlı)</label><br>
+            <input type="number" id="number" style="width: 19vh" placeholder="Yaşınızı giriniz" min="18" max="65"><br><br>
+            <label for="dropdown">Başvurmak istediğiniz pozisyon nedir?</label><br>
+            <select id="dropdown" style="width: 29vh">
+                <option disabled selected value="Bir pozisyon seçiniz">Bir pozisyon seçiniz</option>
+                <option value="Stajyer">Stajyer</option>
+                <option value="Temizlikçi">Temizlikçi</option>
+                <option value="Asistan">Asistan</option>
+                <option value="Memur">Memur</option>
+                <option value="Yönetici">Yönetici</option>
+            </select><br><br>
+            <label>Selin</label><br>
+            <input type="radio" id="kesin" name="gorus" value="kesin"> <label for="kesin">Kesinlikle</label>
+            <input type="radio" id="belki" name="gorus" value="belki"> <label for="belki">Belki</label>
+            <input type="radio" id="asla" name="gorus" value="asla"> <label for="asla">Asla</label><br><br>
+            <label>Yetenekleriniz nelerdir?</label><br>
+            <input type="checkbox" id="yetenek1" name="yetenek1" value="Yönetim"><label for="yetenek1"> Yönetme</label><br>
+            <input type="checkbox" id="yetenek2" name="yetenek2" value="İşletme"><label for="yetenek2"> İşletme</label><br>
+            <input type="checkbox" id="yetenek3" name="yetenek3" value="Temizlik"><label for="yetenek3"> Temizlik</label><br>
+            <input type="checkbox" id="yetenek4" name="yetenek4" value="Office uygulamaları"><label for="yetenek4"> Office Uygulamaları</label><br><br>
+            <label>Öneri ve görüşleriniz...</label><br>
+            <textarea id="oneri" name="oneri" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Başvur" style="margin-left: 30%;margin-right: 60%;margin-top: 10px;width: 100px;background-color:yellowgreen;border-radius: 5px;color: white;border-color: yellowgreen;">
+        </form>
+    </div>
+
+</body>
+</html>
